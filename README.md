@@ -14,8 +14,8 @@ Instructions for Running the Application:
 Requirements: Web Server: e.g., Apache, Nginx. PHP:version 7 or above recommended. MySQL Databas, Africa’s talking Account, Ngrok , Postman
 
 STEPS for Running the Application:
-Download codes
-Database Configuration: Import the provided SQL file (database.sql) into your MySQL database to create the necessary tables. Update the database connection parameters in server.php and menu.php to match your MySQL database configuration.
-Configure SMS Functionality in postman and africa’s talking: If you intend to use SMS functionality for user registration, update the SMS API integration in message.php with your postman API credentials.
-Set Up Web Server: Configure your web server to serve the application files (PHP files) from the appropriate directory. Ensure proper permissions are set for files and directories to enable read/write access as needed.
-Run the Application: Access the application through your web browser by entering the appropriate URL. If testing the USSD functionality, ensure that your USSD service provider is configured to forward requests to the ussd.php endpoint. Usage: Register a user account via the postman or SMS (if SMS functionality is enabled). Log in with the registered credentials to access the main features such as booking tickets, managing account details, and View available buses. Explore the different functionalities provided by the web interface and USSD menu options.
+1.Download codes
+2.Database Configuration: Import the provided SQL file (database.sql) into your MySQL database to create the necessary tables. Update the database connection parameters in server.php and menu.php to match your MySQL database configuration.
+3. Configure SMS Functionality in postman and africa’s talking: If you intend to use SMS functionality for user registration, update the SMS API integration in message.php with your postman API credentials.
+4. Set Up Web Server: Configure your web server to serve the application files (PHP files) from the appropriate directory. Ensure proper permissions are set for files and directories to enable read/write access as needed.
+5. Run the Application: Access the application through your web browser by entering the appropriate URL. If testing the USSD functionality, ensure that your USSD service provider is configured to forward requests to the ussd.php endpoint. Usage: Register a user account via the postman or SMS (if SMS functionality is enabled). Log in with the registered credentials to access the main features such as booking tickets, managing account details, and View available buses. Explore the different functionalities provided by the web interface and USSD menu options.
